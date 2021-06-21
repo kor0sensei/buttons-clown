@@ -1,0 +1,38 @@
+{
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Mike"
+    },
+    {
+      "id": 2,
+      "name": "Bob"
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "parentName": "Spirit",
+      "kidName": "Maka",
+      "kidsAttending": 7,
+      "address": "4545 Death City",
+      "date": "7/14/2021",
+      "length": 4
+    },
+    {
+      "parentName": "Charles",
+      "kidName": "Lelouch",
+      "kidsAttending": "11",
+      "address": "4627 Geass Way",
+      "neededBy": "2021-07-28",
+      "howLong": "5",
+      "id": 2
+    }
+  ],
+  "completedBooking": [
+    {
+      "reservationId": 1,
+      "clownId": 1
+    }
+  ]
+}
