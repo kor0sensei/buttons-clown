@@ -1,0 +1,30 @@
+@import "details.css";
+@import url('https://fonts.googleapis.com/css2?family=Mate+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kirang+Haerang&display=swap');
+
+/*Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: "Mate SC", Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Kirang Haerang", serif;
+  letter-spacing: 2px;
+}
+
+#submitReservation {
+	margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: darkgoldenrod;
+  color: white;
+  font-size: 1rem;
+	box-shadow: black;
+}
